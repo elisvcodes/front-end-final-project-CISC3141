@@ -19,7 +19,7 @@
 }
 #panel{
   padding-top: 30px;
-  background-color: #B2DC7C;
+  background-color: #5d4e88;
   
 }
 #entire-table{
@@ -28,6 +28,10 @@
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+}
+
+.css-1uzrzkv-MuiGrid-root{
+  padding: 1.5em;
 }
 
 
