@@ -1,0 +1,163 @@
+/* * {
+  padding: 0;
+  position:static;
+
+} */
+h1{
+
+font-size: 52px;
+margin-top:0;
+text-align: left;
+margin-bottom: 10px;
+
+
+}
+/* p{
+  padding-bottom: 30px;
+} */
+
+
+.sign-up{
+  border-radius: 4px;
+}
+.section1{
+  position: relative;
+  display:flex;
+  flex-flow: row;
+  flex-direction: column;
+  background-color: #EEEBDD;
+
+
+
+}
+.Body{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+
+
+}
+.video{
+
+  margin-top: 200px;
+  margin-left: 350px;
+  padding-left: 100px;
+  padding-bottom: 200px;
+
+
+
+}
+
+
+.header{
+  position: relative;
+  margin-top: 65px;
+background-color: #EEEBDD;
+
+}
+
+#content-sec{
+  background-color: #EEEBDD;
+ position:absolute;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-left: 200px;
+  text-align: left;
+}
+span{
+  color: #FF7600;
+}
+.issue-sec {
+  background-color: #fff;
+  text-align: center;
+}
+.issue-tracker{
+ padding-top: 45px;
+ font-size: 25px;
+ align-items: center;
+ text-align: center;
+ text-shadow: 10%;
+}
+.parag {
+  font-size:20px;
+  padding-left: 1rem;
+  padding-bottom:0;
+  padding-top:0 ;
+
+}
+.section3{
+  background-color: #fff;
+}
+.flex-left{
+  width: 500px;
+  heigh:700px;
+display: inline-block;
+}
+.issue-management{
+  text-align: left;
+  align-items:left;
+  padding-left: 10rem;
+  background-color: #EEEBDD;
+}
+
+.collab{
+
+  padding-left: 3rem;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  color: #700B97;
+}
+.interactive{
+  display: inline-block;
+  font-size: 17px;
+padding-bottom: 0;
+padding-top: 0;
+
+
+
+}
+
+.Issuesmanaged{
+  display: inline-block;
+}
+.name{
+  color:#FF5F7E;
+  font-size: 30px;
+  display: inline-block;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+}
+.record{
+  font-size: 17px;
+padding-bottom: 0;
+padding-top: 0;
+padding-left: 20px;
+}
+
+.automation{
+  display: inline-block;
+
+}
+.automate{
+  color: #E5890A;
+  font-size: 30px;
+  display: inline-block;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+}
+.automated{
+
+  font-size: 17px;
+padding-bottom: 0;
+padding-top: 0;
+padding-left: 100px;
+}
+
+/* .flex-wrap{
+display:flex;
+align-items: flex-start;
+
+} */
