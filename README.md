@@ -1,20 +1,87 @@
-# front-end-final-project-CISC3141
+# Frontend Final Project CISC 3141
 
-##Dec 2nd Updates
+### Team Members and Roles
+List team members, contact/github info, and high level roles:
 
-###Things I did :
-Implement bug Data Table with functionalities such as: add new bug, edit bug, delete bug, save bug, and search bug. 
+##### Team Members
+Alexander Petrovski, Github: AlexanPetrov, back-end
+Anastasia Gusenkov, GitHub : a-gusenkov, front-end
+Ariel Benzur, GitHub: ArielBenz171, float
+Eli Sultanov, Github: elisvcodes, manager
+Elvin Guliyev, Github: elvin9901 , front-end
+Jason Moreau, Github: JMCSci, back-end
+Michael Caridad , Github: Mike809 , back-end
 
-###Things left to do:
-Add side panel functionalities
-See about pagination
+##### GitHub Links
+Frontend: https://github.com/a-gusenkov/front-end-final-project-CISC3141
+Backend: https://github.com/AlexanPetrov/back-end-final-project-CISC3141
 
 
-![Screen Shot 2021-12-02 at 4 34 31 PM](https://user-images.githubusercontent.com/70613782/144509643-ce06153a-38fa-4300-ba5d-be4252f86996.png )
-![Screen Shot 2021-12-02 at 4 34 43 PM](https://user-images.githubusercontent.com/70613782/144509685-15a03320-a0c6-4586-a3fc-51fea3821ab8.png )
-![Screen Shot 2021-12-02 at 4 35 27 PM](https://user-images.githubusercontent.com/70613782/144509707-6f3f1e55-a511-46f5-9e40-705eb62ef0ea.png )
-![Screen Shot 2021-12-02 at 4 35 18 PM](https://user-images.githubusercontent.com/70613782/144509734-72ae3a2c-3880-4e6d-8b61-6bc53eee4ef4.png )
+### Overview
+##### What are you building? https://www.zoho.com/bugtracker/
 
+##### Describe the bug tracker….
+When a developer or a development team works on a project there are many instances when keeping track of bugs becomes difficult. A bug tracker will allow users to input information about the bugs found in their code allowing the user to track what needs to be done and keep a documentation of the process. The bug tracker will allow the user to create a bug tracker along with a description of what the bug is and update the bug tracker(whether that be changing the notes within the tracker or closing the tracker when the bug is fixed).
+
+##### Who would use it?
+Devs….
+
+##### Goals
+What do you plan to accomplish? Be as specific as possible with project features.
+
+- Ability to register
+- Create bugs
+- Assign bugs
+- Resolve bugs
+- Non-Goals
+- List out things that you agreed won’t be goals this semester. You can’t solve every problem
+
+##### Templates
+What the product needs: Category: Information Technology/ Organization
+
+##### Technical Architecture
+* Stack Frontend: JS, React, Redux, MUI(Material UI), React-Router-DOM, Axios 
+* Backend: Java, SpringBoot, MySQL
+
+##### List of Pages
+- Homepage
+- Login page
+- Register page
+- Dashboard
+- Create bug
+- Update Bug
+- Mockups of each page //Will be done Nov 7th
+
+##### API Routes
+/login
+/register
+/create-bug
+/delete-bug
+/update-bug
+/get-bugs
+/get-bug
+/logout
+
+##### Database Models
+List database models/tables and associations you need.
+
+User Model: name, email, password, role, organization, bugs assigned(array of ids) 
+Bug Model: Title, Description, Due date, assigned to, created by, @oneToMany
+
+##### 3rd Party API’s
+List any 3rd party api integrations. Where will this be added (page or api route) and how will they be used
+
+Google Auth?
+
+### Milestones
+Demo Night is December 14, what do you plan to accomplish at specific milestones? (adjust dates so it works for your team)
+
+##### Milestone 1: Oct 31st (Meet and create a project outline) Milestone 2 : Nov 7th
+
+### Open Questions
+List any questions and decision points that the team was not able to answer. Maybe list the hardest part of the application.
+
+Research and track possible solutions for a later decision.
 
 
 
