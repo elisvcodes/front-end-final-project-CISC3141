@@ -8,12 +8,11 @@ function Dashboard() {
   return (
     <div className='Dashboard'>
       <Grid container spacing={0} id='entire-table'>
-        <Grid item xs={2} id='panel'>
-          <p>Home</p>
-          <p>Name</p>
-
-          <br />
-          <p>Log Out</p>
+        <Grid item xs={2} id='panel' className="whiteText">
+          <h2>Dashboard</h2>
+          <br/>
+          <p>Create a bug by pressing Add Bug + </p>
+          <p>Edit or Delete your bug by pressing Edit</p>
         </Grid>
         <Grid item xs={10} id='data-tbl'>
           <Tables />

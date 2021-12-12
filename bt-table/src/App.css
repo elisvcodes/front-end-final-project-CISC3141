@@ -14,6 +14,12 @@
 .css-17z57jz-MuiDataGrid-root .MuiDataGrid-iconSeparator {
   color: #676f8e !important;
 }
+.whiteText{
+  color: white;
+  padding: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
 #panel {
   padding-top: 30px;
   background-color: #5d4e88;
